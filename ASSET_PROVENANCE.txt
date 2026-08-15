@@ -9,12 +9,20 @@ Policy for this public site:
 - No screenshot is retouched, redrawn, beautified or enhanced for the site.
 - No CSS filters are applied.
 - Images are displayed with their source aspect ratio using object-fit: contain.
+- The public repository now contains byte-identical local copies extracted from the original presentation media.
 
-Current deployment references the original Google Slides-hosted source images directly. This deliberately avoids creating a visually altered derivative during the initial GitHub publication. The repository may later replace these remote references with byte-identical local copies of the same source media; such a change must not alter the image bytes or visual content.
+Verified SHA-256:
+b02da6e3ff80d4c82beabaddbbfe96da5a2cc3a4d0dfff0dda1ff806a3df5533  assets/persona-selection-original.jpg
+5e43abf81fca5a3b455a796d19501cd9cf3ebb091f806b40b1cbcb510e99542c  assets/runtime-action-original.jpg
+46b606b0a43549d8e49738c8574e18ad1c10975374d319d9587fc55072a68f0a  assets/documents-proof-original.jpg
+6b476694cbb9f7f3adc09bb4d0916af064706e3a0e2c1e146bd02c6d6ce20982  assets/demo-pulse-original.jpg
+
+The import workflow downloaded the current Google Slides source media and accepted the files only after all four hashes matched the previously extracted website package exactly. The one-shot workflow was then removed from the repository.
 
 Source roles used on the page:
-1. Persona/product runtime screenshot — commercial deck slide 3/4 source media.
-2. Workshop/runtime screenshot — commercial deck slide 5 source media.
+1. Persona/product runtime screenshot — commercial deck slide 3 source media.
+2. Controlled runtime/action screenshot — commercial deck slide 6 source media.
 3. Documents/action evidence screenshot — commercial deck slide 7 source media.
+4. Demo Pulse product artifact — commercial deck slide 5 source media.
 
 Technical-status claims on the landing page are based on the 15 August 2026 technical status card rather than stale status text in the 10 August commercial deck.
