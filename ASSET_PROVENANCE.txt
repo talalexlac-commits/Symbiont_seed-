@@ -1,0 +1,20 @@
+SYMBIONT SEED — PUBLIC SITE IMAGE PROVENANCE
+
+Source presentation:
+SYMBIONT — GENERAL COMMERCIAL INTRO DECK — 2026-08-10
+Google Slides presentation ID: 1oOIHBsgRsMuCJNR2Dpl5QHwvPRQuAJxj0YJ36ey6ML8
+
+Policy for this public site:
+- No product screenshot is AI-generated.
+- No screenshot is retouched, redrawn, beautified or enhanced for the site.
+- No CSS filters are applied.
+- Images are displayed with their source aspect ratio using object-fit: contain.
+
+Current deployment references the original Google Slides-hosted source images directly. This deliberately avoids creating a visually altered derivative during the initial GitHub publication. The repository may later replace these remote references with byte-identical local copies of the same source media; such a change must not alter the image bytes or visual content.
+
+Source roles used on the page:
+1. Persona/product runtime screenshot — commercial deck slide 3/4 source media.
+2. Workshop/runtime screenshot — commercial deck slide 5 source media.
+3. Documents/action evidence screenshot — commercial deck slide 7 source media.
+
+Technical-status claims on the landing page are based on the 15 August 2026 technical status card rather than stale status text in the 10 August commercial deck.
