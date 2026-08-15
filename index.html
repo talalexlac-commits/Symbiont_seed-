@@ -3,209 +3,187 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Symbiont Seed — an installable local-first persistent AI runtime for Windows with identity, memory, Persona, bounded execution and restart continuity." />
-  <title>Symbiont Seed — Persistent AI Runtime</title>
+  <meta name="description" content="Symbiont is an installable local-first persistent AI runtime for Windows with identity, memory, Persona, bounded execution and continuity." />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#0c1015" />
+  <title>Symbiont — Persistent AI Runtime for Windows</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap nav">
-      <a class="brand" href="#top" aria-label="Symbiont Seed home">SYMBIONT SEED</a>
-      <nav aria-label="Primary navigation">
-        <a href="#proof">Proof</a>
-        <a href="#architecture">Architecture</a>
-        <a href="#status">Status</a>
-        <a href="#acquisition">Acquisition</a>
-      </nav>
-    </div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Symbiont home">SYMBIONT</a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#what">What it is</a>
+      <a href="#proof">Proof</a>
+      <a href="#status">Status</a>
+      <a href="#acquisition">Acquisition</a>
+    </nav>
   </header>
 
   <main id="top">
-    <section class="hero">
-      <div class="wrap hero-grid">
-        <div>
-          <p class="eyebrow">ADVANCED LABORATORY PROTOTYPE · PRE-RELEASE TECHNOLOGY ASSET</p>
-          <h1>The model is replaceable.<br><span>The persistent organism is not.</span></h1>
-          <p class="lead">Symbiont Seed is an installable local-first AI runtime for Windows with persistent identity, memory, Persona architecture, bounded execution and continuity beyond individual models and sessions.</p>
-          <div class="actions">
-            <a class="button primary" href="#proof">See what is proven</a>
-            <a class="button secondary" href="#acquisition">Discuss acquisition</a>
-          </div>
+    <section class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow">ADVANCED LABORATORY PROTOTYPE · PRE-RELEASE TECHNOLOGY ASSET</p>
+        <h1>Persistent AI runtime<br />for Windows.</h1>
+        <p class="hero-line">The model is replaceable. <strong>The persistent organism is not.</strong></p>
+        <p class="lead">An installable, local-first AI system with persistent identity, memory, Persona, bounded execution and continuity beyond individual models and sessions.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#proof">See what is proven</a>
+          <a class="button ghost" href="mailto:tal.alex.lac@gmail.com?subject=Symbiont%20technology%20discussion">Discuss the technology</a>
         </div>
-        <figure class="product-shot hero-shot">
-          <img src="assets/persona-selection-original.jpg" alt="Original Symbiont Persona selection product screenshot" />
-          <figcaption>Original product screenshot · no generated or retouched imagery</figcaption>
+      </div>
+      <div class="hero-visual">
+        <figure class="screenframe">
+          <img src="assets/persona-selection-original.jpg" alt="Original Symbiont Persona selection screen" />
+          <figcaption>Original product image from the project evidence deck. Unretouched.</figcaption>
         </figure>
       </div>
     </section>
 
-    <section class="section compact">
-      <div class="wrap statement">
+    <section id="what" class="section shell">
+      <div class="section-heading">
         <p class="eyebrow">NOT ANOTHER MODEL</p>
-        <h2>A persistent runtime layer above models, tools and local data.</h2>
-        <p>Models and providers can change. Identity, Memory, Persona, Authority and continuity belong to the organism.</p>
+        <h2>A persistent layer above models, tools and local data.</h2>
+        <p>Models can change. Providers can change. Symbiont is built around the state that should remain: identity, memory, Persona, authority and continuity.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card"><span>01</span><h3>Identity</h3><p>A distinct agent identity can persist across sessions and restarts instead of being recreated as a fresh prompt every time.</p></article>
+        <article class="feature-card"><span>02</span><h3>Memory</h3><p>Persistent Memory has physically survived a real organism restart and recalled the same stored fact afterwards.</p></article>
+        <article class="feature-card"><span>03</span><h3>Authority</h3><p>Actions move through typed cognitive and execution contracts. External text is not automatically treated as authority.</p></article>
+        <article class="feature-card"><span>04</span><h3>Continuity</h3><p>Persistent user state and DATA_ROOT survive normal application lifecycle and a tested uninstall/reinstall path.</p></article>
       </div>
     </section>
 
-    <section id="architecture" class="section">
-      <div class="wrap">
-        <div class="section-heading">
-          <p class="eyebrow">CORE LAYER</p>
-          <h2>What Symbiont Seed adds</h2>
-        </div>
-        <div class="cards four">
-          <article class="card"><h3>Identity</h3><p>The same agent can persist across sessions and restarts through a dedicated identity/session/generation contract.</p></article>
-          <article class="card"><h3>Memory</h3><p>Persistent Memory has physically survived a real organism restart and recalled the same stored fact afterwards.</p></article>
-          <article class="card"><h3>Authority</h3><p>Actions pass through typed cognitive and execution contracts rather than treating arbitrary external text as commands.</p></article>
-          <article class="card"><h3>Continuity</h3><p>Persistent user state and runtime state are designed to survive normal application lifecycle and reinstall scenarios.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="proof" class="section alt">
-      <div class="wrap proof-grid">
-        <div>
-          <p class="eyebrow">PHYSICAL WINDOWS PROOF</p>
+    <section id="proof" class="section proof-section">
+      <div class="shell">
+        <div class="section-heading compact">
+          <p class="eyebrow">PHYSICAL PROOF</p>
           <h2>It actually installs and runs.</h2>
-          <p class="large">Symbiont Seed has been built into a real Windows installer and physically passed an install → cold launch → normal operation → shutdown → uninstall → persistent user-data preservation → reinstall → relaunch lifecycle.</p>
-          <div class="truth-note">
-            <strong>Current limitation</strong>
-            <p>The accepted lifecycle proof was performed on the primary Windows development machine. Independent clean Machine B validation is still pending, so arbitrary-PC compatibility is not claimed.</p>
-          </div>
+          <p>Symbiont has been built into a real Windows installer and physically passed the following lifecycle on the primary Windows development machine:</p>
         </div>
-        <figure class="product-shot">
-          <img src="assets/documents-proof-original.jpg" alt="Original Symbiont Documents proof screenshot" />
-          <figcaption>Original proof screenshot from the project presentation</figcaption>
-        </figure>
+        <div class="proof-flow" aria-label="Tested installer lifecycle">
+          <span>Install</span><b>→</b><span>Cold launch</span><b>→</b><span>Normal operation</span><b>→</b><span>Shutdown</span><b>→</b><span>Uninstall</span><b>→</b><span>Preserve DATA_ROOT</span><b>→</b><span>Reinstall</span><b>→</b><span>Relaunch</span>
+        </div>
+        <p class="truth-note"><strong>Boundary:</strong> this physical acceptance has not yet been repeated on an independent clean Machine B. No claim of universal Windows hardware compatibility is made.</p>
+
+        <div class="gallery">
+          <figure class="screenframe wide">
+            <img src="assets/runtime-action-original.jpg" alt="Original Symbiont runtime action screen" />
+            <figcaption>Original runtime image. No filters, regeneration or retouching.</figcaption>
+          </figure>
+          <figure class="screenframe wide">
+            <img src="assets/documents-proof-original.jpg" alt="Original Symbiont documents and runtime proof screen" />
+            <figcaption>Original product/evidence image. No filters, regeneration or retouching.</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
 
-    <section class="section">
-      <div class="wrap split">
+    <section class="section shell split">
+      <div>
+        <p class="eyebrow">LOCAL FIRST</p>
+        <h2>Cloud intelligence is optional infrastructure, not the organism.</h2>
+        <p>Local inference has been physically demonstrated through Ollama with a small local model. The architecture treats the LLM as a replaceable cognitive resource rather than the identity of the system.</p>
+        <p class="muted">Provider abstraction exists, but equal production E2E acceptance is not claimed for every cloud provider.</p>
+      </div>
+      <figure class="screenframe">
+        <img src="assets/demo-pulse-original.jpg" alt="Original Symbiont Windows demo pulse screen" />
+        <figcaption>Original project image from the commercial evidence deck.</figcaption>
+      </figure>
+    </section>
+
+    <section class="section dark-band">
+      <div class="shell split security-copy">
         <div>
-          <p class="eyebrow">LOCAL FIRST</p>
-          <h2>Cloud optional.</h2>
-          <p>Local inference has been physically demonstrated with Ollama and a small local model. The architecture treats the LLM as a replaceable cognitive resource rather than the identity of Symbiont Seed itself.</p>
-          <p class="muted">Provider abstraction exists, but identical production end-to-end acceptance is not claimed for every possible cloud provider.</p>
+          <p class="eyebrow">SECURITY-AWARE ARCHITECTURE</p>
+          <h2>Data is not the same thing as a command.</h2>
         </div>
         <div>
-          <p class="eyebrow">MODEST HARDWARE</p>
-          <h2>Built on an older desktop.</h2>
-          <p>The project was developed and physically operated on an AMD Athlon X4-class desktop, including local inference, Memory, Voice, embodiment components and installer lifecycle work.</p>
-          <p class="muted">This is an encouraging engineering result, not a formal benchmark or hardware compatibility matrix.</p>
+          <p>Symbiont includes typed action contracts and the KOTK diagnostic/evidence layer for provenance, prompt-injection and authority-related analysis.</p>
+          <p class="muted-light">No claim of independent penetration testing, production security certification or complete prompt-injection resistance is made.</p>
         </div>
       </div>
     </section>
 
-    <section class="section alt">
-      <div class="wrap media-grid">
-        <figure class="product-shot">
-          <img src="assets/runtime-action-original.jpg" alt="Original Symbiont controlled runtime action screenshot" />
-          <figcaption>Original controlled-action product screenshot</figcaption>
-        </figure>
-        <div>
-          <p class="eyebrow">CONTROLLED EXECUTION</p>
-          <h2>Data is not authority.</h2>
-          <p>Symbiont Seed contains a typed cognition/action path designed to separate semantic interpretation from permission to execute.</p>
-          <div class="code-flow">Context → Semantic interpretation → Synapse → ActionContract → execution → VerifiedOutcome</div>
-          <p>Its KOTK diagnostic/evidence layer also analyzes classes of provenance, prompt-injection and authority-related signals.</p>
-          <p class="muted">No claim of production security certification, invulnerability or independent penetration testing is made.</p>
-        </div>
+    <section id="status" class="section shell">
+      <div class="section-heading">
+        <p class="eyebrow">CURRENT STATUS</p>
+        <h2>Between research prototype and productization.</h2>
       </div>
-    </section>
-
-    <section class="section">
-      <div class="wrap media-grid reverse">
-        <div>
-          <p class="eyebrow">PERSONA IS MORE THAN A PROMPT</p>
-          <h2>Identity is connected to the organism.</h2>
-          <p>Persona is connected with cognition, Memory, Voice and media through a dedicated identity/session/generation contract. Multiple Persona packages exist in the laboratory system; identical current end-to-end acceptance for every package is not claimed.</p>
-        </div>
-        <figure class="product-shot">
-          <img src="assets/demo-pulse-original.jpg" alt="Original Demo Pulse artifact screenshot" />
-          <figcaption>Original Demo Pulse product artifact</figcaption>
-        </figure>
+      <div class="status-grid">
+        <article class="status-card proven">
+          <h3>Proven or physically demonstrated</h3>
+          <ul>
+            <li>Windows application and real installer lifecycle</li>
+            <li>Persistent DATA_ROOT and Memory across restart</li>
+            <li>Persona identity architecture</li>
+            <li>Local AI inference</li>
+            <li>Voice reaching Windows output</li>
+            <li>Embodiment / Complex Body runtime</li>
+            <li>Local S2S path</li>
+            <li>Typed cognitive/action architecture</li>
+            <li>Reproducible evidence, manifests and hashes</li>
+          </ul>
+        </article>
+        <article class="status-card pending">
+          <h3>Still required for commercial release</h3>
+          <ul>
+            <li>Independent clean Machine B validation</li>
+            <li>Broader hardware compatibility QA</li>
+            <li>Commercial security hardening</li>
+            <li>Signed commercial installer</li>
+            <li>Independent penetration testing</li>
+            <li>IP/provenance closure for all bundled assets</li>
+            <li>Formal compliance for target deployment</li>
+            <li>Final release acceptance</li>
+          </ul>
+        </article>
       </div>
-    </section>
-
-    <section id="status" class="section status-section">
-      <div class="wrap">
-        <div class="section-heading">
-          <p class="eyebrow">HONEST CURRENT STATUS</p>
-          <h2>Between advanced laboratory prototype and productization.</h2>
-        </div>
-        <div class="status-grid">
-          <article class="status-card proven">
-            <h3>Proven or physically demonstrated</h3>
-            <ul>
-              <li>Working Windows application</li>
-              <li>Real Windows installer lifecycle</li>
-              <li>Persistent user DATA_ROOT</li>
-              <li>Persistent Memory across real restart</li>
-              <li>Persona identity architecture</li>
-              <li>Local AI inference</li>
-              <li>Voice reaching Windows output</li>
-              <li>Embodiment / rendering runtime</li>
-              <li>Local S2S path</li>
-              <li>Typed cognitive/action architecture</li>
-              <li>Large technical evidence corpus</li>
-            </ul>
-          </article>
-          <article class="status-card pending">
-            <h3>Still required for commercial release</h3>
-            <ul>
-              <li>Independent clean Machine B validation</li>
-              <li>Broad hardware compatibility QA</li>
-              <li>Commercial security hardening</li>
-              <li>Independent penetration testing</li>
-              <li>Signed commercial installer</li>
-              <li>Production remote S2S</li>
-              <li>IP / provenance closure for all assets</li>
-              <li>Regulatory / enterprise compliance work</li>
-              <li>Final release acceptance</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section alt">
-      <div class="wrap statement narrow">
-        <p class="eyebrow">WHY IS THE TECHNOLOGY AVAILABLE?</p>
-        <h2>The next stage requires a larger productization base.</h2>
-        <p>Symbiont Seed was developed as an independently funded project. The next stage — hardware validation, security hardening, licensing, QA and productization — requires infrastructure and resources beyond the current independent development budget.</p>
-        <p>We prefer to transfer the existing technology to a team capable of taking it through the next stage rather than leave the accumulated engineering work unused.</p>
+      <div class="hardware-note">
+        <strong>Hardware note.</strong> The project was developed and physically operated on an older AMD Athlon X4-class desktop. This is encouraging engineering evidence, not a formal compatibility benchmark.
       </div>
     </section>
 
     <section id="acquisition" class="section acquisition">
-      <div class="wrap acquisition-grid">
+      <div class="shell acquisition-grid">
         <div>
-          <p class="eyebrow">TECHNOLOGY ACQUISITION</p>
-          <h2>More than an executable.</h2>
-          <p>A potential acquisition can include the private source repository and history, first-party architecture and rights as defined by agreement, Windows laboratory product and installer, build tooling, Persona / Memory / security architecture, documentation, technical reports, test evidence, manifests, hashes and knowledge handoff.</p>
-          <p class="muted">Third-party components remain under their own licences. Exact transferred rights are defined by the acquisition agreement.</p>
+          <p class="eyebrow">TECHNOLOGY AVAILABLE</p>
+          <h2>A head start measured in engineering work, not slides.</h2>
+          <p>Symbiont was independently funded. The next stage — hardware validation, security hardening, licensing, QA and productization — requires infrastructure and resources beyond the current independent development budget.</p>
+          <p>Rather than leave that work unused, the technology is available for acquisition or a serious productization partnership.</p>
         </div>
-        <aside class="contact-card">
-          <p class="eyebrow">SERIOUS INQUIRIES</p>
-          <h3>Interested in the technology?</h3>
-          <p>A concise technical brief and controlled source/evidence review are available for serious acquisition or productization discussions.</p>
-          <a class="button primary full" href="mailto:tal.alex.lac@gmail.com?subject=Symbiont%20Seed%20technology%20inquiry">Request technical brief</a>
-          <div class="contact-details">
-            <strong>Alexander Talantsev</strong><br>
-            Ukraine<br>
-            <a href="mailto:tal.alex.lac@gmail.com">tal.alex.lac@gmail.com</a>
-          </div>
-        </aside>
+        <div class="asset-card">
+          <h3>A potential transfer can include</h3>
+          <ul>
+            <li>Private source repository and source history</li>
+            <li>First-party architecture and agreed IP rights</li>
+            <li>Windows laboratory product and installer</li>
+            <li>Build tooling</li>
+            <li>Persona, Memory and security architecture</li>
+            <li>Documentation and technical reports</li>
+            <li>Test/evidence corpus, manifests and hashes</li>
+            <li>Knowledge handoff</li>
+          </ul>
+          <p class="fineprint">Third-party components remain subject to their own licences. Exact transferred rights are defined by agreement.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact shell">
+      <p class="eyebrow">CONTACT</p>
+      <h2>Interested in reviewing the technology?</h2>
+      <p>Technical status and controlled source/evidence review are available for serious acquisition or partnership discussions.</p>
+      <div class="contact-row">
+        <div><strong>Alexander Talantsev</strong><span>Ukraine</span></div>
+        <a class="button primary" href="mailto:tal.alex.lac@gmail.com?subject=Symbiont%20technology%20discussion">tal.alex.lac@gmail.com</a>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="wrap footer-grid">
-      <div><strong>SYMBIONT SEED</strong><br><span>Persistent AI Runtime · Pre-Release Technology Asset</span></div>
-      <div class="footer-note">All displayed product images are original project assets. No AI-generated, retouched or visually enhanced product screenshots are used on this page.</div>
-    </div>
+  <footer class="footer shell">
+    <span>SYMBIONT</span>
+    <span>Advanced Laboratory Prototype · Pre-Release Technology Asset</span>
   </footer>
 </body>
 </html>
